@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="">
+  <title>Document</title>
+</head>
+<body>
+ <!-- <a href="#para"> Go To Paragraph</a>
+    <p id="para"> This is a paragraph</p>
+    
+
+    <header>
+      <a href="#content">Content</a>
+      <p id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, saepe.</p>
+    </header>
+
+    <main>
+      <section>
+        <ol>
+          <li>Contect</li>
+        </ol>
+      </section>
+    </main>
+    <footer>
+      <nav>
+      <a href="add">Address</a><br>
+      <a href="no">Number</a>
+    </nav>
+    </footer>
+
+<ol type="A">
+  <li>HTML</li>
+  <ol>
+    <li>my course</li>
+  </ol>
+  <li>CSS</li>
+  <li>JAVA</li>
+  <li>REACT</li>
+  <li>C++</li>
+</ol>
+
+<ul>
+  <li>Hocky</li>
+  <li>Cricket</li>
+  <li>Tenis</li>
+</ul>
+
+<table border="1">
+       <caption>Technologies</caption>
+
+       <tr>
+        <th colspan="3">Tech Table</th>
+       </tr>
+  <tr>
+    <th>Language</th>
+    <th>Competency</th>
+    <th>Year</th>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>5/10</td>
+    <td>2 year</td>
+  </tr>
+
+  <tr>
+    <td>HTML</td>
+    <td>5/10</td>
+    <td>4 hours</td>
+  </tr>
+</table>-->
+
+<form action="google.com" method="post">
+  <label for="email"></label>
+  Username: <input type="text" id="email" placeholder="username"><br>
+  <label for="user_password"></label>
+  password: <input type="User_password" placeholder="password"><br>
+
+
+  <label for="date">Date: </label>
+  <input type="date"><br>
+  File: <input type="file"><br>
+  Color: <input type="color"><br>
+  Rang: <input type="range"><br>
+
+  
+  Gender: <label for="male">Male: </label>
+  <input type="radio" id="male" name="gender" value="male">   <!--perticuler ek choose karne ke liye -->
+  <label for="female">Female: </label>
+  <input type="radio"id="female" name="gender" value="Female">
+  <label for="other">Other: </label>
+  <input type="radio" id="other" name="gender" value="other"><br><hr>
+  
+  <label for="Rabri">C++</label>
+  <input type="checkbox" name="Rabri" id="C++">    <!--multiple box choose krne ke liye-->
+  <label for="lalu">HTML</label>
+  <input type="checkbox" name="lalu" id="HTML">
+  <label for="nannu">Java</label>
+  <input type="checkbox" name="nannu" id="Java"><br><hr>
+
+  <label for="country">Select your country: </label>
+  <select name="country" id="country">
+    <option value="India">India</option>
+    <option value="US">US</option>
+    <option value="UK">UK</option> 
+  </select><br><br>
+
+  <textarea name="story" id="story" cols="20" rows="5">
+  Please write your text
+  </textarea> <br><br>
+
+  <input type="submit">
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/yiXAmkimZRQ?si=55ZDSCrrBN-851Rm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br>
+  <a href="https://www.knowledgegate.ai/"  target="_blank">Knowledgegate</a> 
+  <br><hr>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/WPdok0ODBjY?si=KwzaUbH7QyRyQT5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br><br><hr>
+
+  <iframe src="http://en.wikipedia.org/wiki/Main_Page" width="500px" height="400px"  target="_blank" frameborder="0"></iframe>
+</form>
+
+</body>
+</html>
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin: 15px 0 5px;
+  color: #555;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="file"],
+input[type="color"],
+input[type="range"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.inline-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
